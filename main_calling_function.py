@@ -13,8 +13,8 @@ def all_statistics(df):
    '''
    from video_creation.create_video import video_creation, video_voronoi_creation
    from data_statistics.threat_Potential import threat_image     
-   video_creation()
-   video_voronoi_creation()
+   #video_creation()
+   #video_voronoi_creation()
    threat_image.display_threat(df)
    
 all_statistics(df)

@@ -41,8 +41,8 @@ def create_multipoints(df):
   dfxT.xT = np.clip(dfxT.xT-dfxT.xT.median(), 0, 1)
 
   #flip axis if necessary (to align with attacking team)
-  #dfxT2.x = 100-dfxT.x
-  #dfxT2.y = 100-dfxT.y
+  #dfxT.x = 100-dfxT.x
+  #dfxT.y = 100-dfxT.y
 
   fig, ax = draw_pitch()
 

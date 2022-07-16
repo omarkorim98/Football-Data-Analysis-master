@@ -45,7 +45,7 @@ def draw_frame(t):
         else:
             size = 3
             color='white'
-            if dfPlayers.loc[pid]['Position'] == 'Defense':
+            if dfPlayers.loc[pid]['Position'] == 'Attack':
                 color= dfPlayers.loc[pid]['Color']                        
             else:
                 color=color= dfPlayers.loc[pid]['Color']

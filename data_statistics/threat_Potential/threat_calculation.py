@@ -62,13 +62,13 @@ def Threat_evolution(df,dfPlayers,max_frame,dfxT,first_frame):
   plt.style.use('ggplot')
   plt.plot(values, )
 
-  highlights = [16,32,48 ]
+  highlights = [16,28,48 ]
 
   for h in highlights:
       plt.axvline(h, c='blue')
  
   plt.xlabel('Time (s)')
-  plt.xticks(np.arange(0, 100,10))
+  plt.xticks(np.arange(0, 49, 4.3), np.arange(0, 12))
   plt.ylabel('Threat Potential')
   plt.savefig('output/threat chart.png')
   return highlights,values
