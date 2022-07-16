@@ -46,9 +46,9 @@ def draw_frame(t):
             size = 3
             color='white'
             if dfPlayers.loc[pid]['Position'] == 'Defense':
-                color= colors['defense']                        
+                color= dfPlayers.loc[pid]['Color']                        
             else:
-                color=colors['attack']
+                color=color= dfPlayers.loc[pid]['Color']
                 
         ax.add_artist(Ellipse((dfFrame.loc[pid]['X'],
                                dfFrame.loc[pid]['Y']),

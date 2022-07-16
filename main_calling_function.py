@@ -1,6 +1,6 @@
 import pandas as pd
 
-#df= pd.read_csv('input_data/calma_df_mapped_final.csv')
+df= pd.read_csv('input_data/calma_df_mapped_final.csv')
 
 '''
 Now funcition is waiting you to send the data to save it in input data folder
@@ -17,6 +17,6 @@ def all_statistics(df):
    video_voronoi_creation()
    threat_image.display_threat(df)
    
-#all_statistics(df)
+all_statistics(df)
 
 
