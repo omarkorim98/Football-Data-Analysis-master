@@ -68,7 +68,7 @@ def Threat_evolution(df,dfPlayers,max_frame,dfxT,first_frame):
       plt.axvline(h, c='blue')
  
   plt.xlabel('Time (s)')
-  plt.xticks(np.arange(0, 100, 10), np.arange(0,10))
+  plt.xticks(np.arange(0, 100,10))
   plt.ylabel('Threat Potential')
   plt.savefig('output/threat chart.png')
   return highlights,values
