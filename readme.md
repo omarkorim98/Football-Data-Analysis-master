@@ -30,6 +30,6 @@ into zones that have a single player as the closest to each point in that zone.
 This notebook shows how you can, having positional data,
 calculate and plot Voronoi Diagrams.
 
-# Quotes Some coding details From :
+# Quotes Some code details From :
 @rjtavares
 
